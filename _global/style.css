@@ -1,0 +1,898 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ***************** */
+/* ***** FONTS ***** */
+/* ***************** */
+
+@font-face {
+    font-family:'Futura Today Screen Normal';
+    src:url(../_global/fonts/FuturaTodayScreenNormal.eot);
+    src:url(../_global/fonts/FuturaTodayScreenNormal.svg#FuturaTodayScreenNormal) format('svg'),
+    url(../_global/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'),
+        url(../_global/fonts/FuturaTodayScreenNormal.woff) format('woff'),
+        url(../_global/fonts/FuturaTodayScreenNormal.ttf) format('truetype');
+        
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Bold';
+    src:url(../_global/fonts/FuturaTodayScreenBold.eot);
+    src:url(../_global/fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenBold) format('svg'),
+        url(../_global/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'),
+        url(../_global/fonts/FuturaTodayScreenBold.woff) format('woff'),
+        url(../_global/fonts/FuturaTodayScreenBold.ttf) format('truetype');
+        
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen DemiBold';
+    src:url(../_global/fonts/FuturaTodayScreenDemiBold.eot);
+    src:url(../_global/fonts/FuturaTodayScreenDemiBold.svg#FuturaTodayScreenDemiBold) format('svg'),
+        url(../_global/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'),
+        url(../_global/fonts/FuturaTodayScreenDemiBold.woff) format('woff'),
+        url(../_global/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype');
+        
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Light';
+    src:url(../_global/fonts/FuturaTodayScreenLight.eot);   
+    src:url(../_global/fonts/FuturaTodayScreenLight.svg#FuturaTodayScreenLight) format('svg'),
+        url(../_global/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'),
+        url(../_global/fonts/FuturaTodayScreenLight.woff) format('woff'),
+        url(../_global/fonts/FuturaTodayScreenLight.ttf) format('truetype');
+        
+    font-style:normal;
+}
+
+
+
+
+
+/* ***************** */
+/* ***** MAIN ***** */
+/* ***************** */
+
+html, body {
+    margin:0; padding:0; height:100%; 
+    font-family:'Futura Today Screen Normal';
+    color:#000;
+}
+
+.wrapper {
+    width:1100px;
+    min-width: 1100px;
+    margin:0 auto;
+}
+
+.top-ad {
+    margin: 10px 0;
+}
+
+.menu-wrapper {
+    width: 170px;
+    float:left;
+    margin:10px 20px 0 0;
+    padding:15px;
+}
+
+.menu ul {
+    padding:0;
+    margin:20px 0 0 0;
+}
+
+.menu li:first-child {
+    border-left:none;
+}
+
+.menu li {
+    background-color:#000;
+    list-style-type:none;
+    margin:0 0 10px 0;
+    padding:13px 19px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.menu li a:hover {
+    text-decoration:none;
+}
+
+.menu li:hover, .menu img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    cursor:pointer;
+}
+
+.facebook  {
+    width: 38px;
+    position: relative;
+    vertical-align:top;
+    margin-right:3px;
+}
+
+.share-text {
+    margin: 50px 0 8px 0;
+    font-size: 14px;
+}
+
+.menu .share-link {
+    text-decoration:none;
+}
+
+.twitter  {
+    width: 38px;
+    position: relative;
+    vertical-align:top;
+    margin-right:3px;
+}
+
+.email  {
+    width: 38px;
+    position: relative;
+    vertical-align:top;
+}
+
+.dfp720x90 {
+    background-color: #999;
+    height: 90px;
+    width:728px;
+    text-align: center;
+    line-height: 90px;
+    margin-top:0;
+}
+
+.featured {
+    background-color: #ccc;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    margin:20px 0;
+    width:100%;
+    background: center center no-repeat;
+    background-size: cover;  
+    position:relative;  
+}
+
+/* woot */
+
+.featured a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.featured .featured-identity {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    z-index: 10;
+}
+
+.featured .featured-identity h3 {
+    position: absolute;
+    top: -45px;
+    left: -7px;
+    height: 35px;
+    padding-right: 20px;
+    background: #d02235;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.featured .featured-identity h3 a {
+    display: block;
+    width: 100%;
+    padding: 0 12px 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.featured .featured-identity img.flag {
+    position: absolute;
+    top: 7px;
+    left: -7px;
+}
+
+.featured .featured-identity p {
+    display: block;
+    height: 100%;
+    width: 276px;
+    padding: 12px;
+    margin: 0;
+    background: url('./bg-overlay.png');
+    text-align: right;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.featured .featured-identity p a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.module {
+    background-color: #ccc;
+    height: 250px;
+    width:265px;
+    text-align: center;
+    line-height: 250px;
+    float:left;
+    margin: 0 20px 20px 0;
+    position:relative;
+}
+
+.module a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.module h3 {
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: -7px;
+    height: 35px;
+    padding-right: 20px;
+    background: #d02235;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.module h3 a {
+    display: block;
+    width: 100%;
+    padding: 0 12px 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.module img.flag {
+    position: absolute;
+    top: 42px;
+    left: -7px;
+}
+
+.module p {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    width: 100%;
+    background: url('./bg-overlay.png');
+    text-align: right;
+}
+
+.module p span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.dfp300x250 {
+    background-color: #999;
+    height: 250px;
+    width:300px;
+    text-align: center;
+    line-height: 250px;
+    float:left;
+}
+
+
+.home-page .map {
+    clear:both;
+    background-color: #ccc;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    margin:20px 0;
+}
+
+.content {
+    float: left;
+    width:870px;
+    margin-top:15px;
+    position:relative;
+}
+
+.best-logo-wrapper {
+
+}
+
+.bestlogo {
+    text-align:center;
+}
+
+.bestlogo img {
+    width:150px;
+    margin: 0 auto;
+}
+
+.hed {
+    float:left;
+    width:292px;
+    text-align:left;
+}
+
+.hed h1 {
+
+}
+
+.hed h1 a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.boldhed {
+
+}
+
+.chatter {
+    color: #444;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.category-wrapper {
+    width:1200px;
+    margin:0 auto;
+}
+
+
+.footer {
+    clear:both;
+    font-size: 11px;
+    text-align: center;
+    padding-top:17px;
+    margin-bottom: 70px;
+    color:#999;
+}
+
+
+.footer a {
+    color:#000;
+}
+
+.bottom-fixed-menu {
+    position:fixed;
+    bottom:0;
+    z-index:9999;
+    width:100%;
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    height:50px;
+}
+
+.bottom-fixed-menu li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #777;
+}
+
+.bottom-fixed-menu li:first-child {
+    border-left:none;
+    margin-left:0;
+}
+
+.bottom-fixed-menu li a {
+    color:#fff;
+    text-decoration:none;
+}
+
+.bottom-fixed-menu li a:hover {
+    text-decoration:underline;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.search-refine {
+    float: left;
+    width: 460px;
+    margin: 0 20px 40px 0;
+    padding:0;
+}
+
+h3.type-label {
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 23px;
+    font-family: "Futura Today Screen DemiBold";
+    font-weight: normal;
+}
+
+.search {
+    border: 2px solid #ccc;
+    height: 67px;
+    width: 390px;
+    margin: 15px 0 0 0;
+    background:url('../_global/search-icon.png') center left no-repeat;
+    line-height:67px;
+    color: #ccc;
+    font-size: 23px;
+    padding-left: 64px;
+    font-family: "Futura Today Screen Light";
+}
+
+.refine {
+    height: 87px;
+    margin: 20px 0 0 0;
+}
+
+.refine-label {
+    float: left;
+    width: 50px;
+    padding: 29px 5px 0 17px;
+    font-size: 12px;
+    height: 58px;
+    margin:0 10px 0 0;
+}
+
+.filter {
+    line-height:87px;
+    float: left;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    width: 100px;
+    background:url('../_global/filter-icon.png') center left no-repeat;
+    text-transform:uppercase;
+    text-transform: uppercase;
+    padding-left: 65px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    }
+
+.filter-panel, 
+.sort-panel {
+     margin: -5px auto;  
+    position: absolute;
+    height:0px;
+    text-align:left; 
+    line-height:normal; 
+    padding: 25px;  
+    border-top: 0;
+    width: 410px;
+    background:#000;
+    color: #f2f2f2;
+    -webkit-transition: height .9s ease-in;
+    -moz-transition: height .9s ease-in;
+    -o-transition: height .9s ease-in;
+    -ms-transition: height .9s ease-in;
+     transition: height .9s ease-in;
+     text-transform:none;
+     left:-999em;     /* Hides the drop down */  
+     /*  left:0;
+     top:auto;
+     z-index: 11; 
+     height:auto;  */
+    
+}
+
+.filter-panel p {
+    margin: 0;
+  color: #fff;
+  padding: 0;
+  font-family: 'Futura Today Screen Light';
+}
+
+.filter-panel h4 {
+      font-size: 13px;
+  color: #fff;
+  margin: 23px 0 6px 0;
+  font-family: 'Futura Today Screen Light';
+  text-transform: capitalize;
+
+}
+
+.filter-panel  ul,
+.sort-panel  ul {
+    padding:0; margin:0;
+}
+
+.filter-panel li,
+.sort-panel li {
+      list-style-type: none;
+  border: 1px white solid;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 4px 9px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: 'Futura Today Screen Light';
+  cursor: pointer;
+}
+
+.filter-panel li.filter-off {
+    opacity: 0.4;
+}
+
+.filter-panel p.submit {
+      display: inline-block;
+  background-color: #fff;
+  font-size: 27px;
+  font-family: 'Futura Today Screen Normal';
+  letter-spacing: 0;
+  padding: 12px 16px;
+  margin: 21px 0 0 0;
+}
+
+.filter-panel p.submit:hover {
+        opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.filter-panel p.submit a {
+    color:black;
+    text-decoration:none;
+}
+
+.filter-panel p.cancel {
+  display: inline-block;
+  margin: 0 0 0 26px;
+  font-size: 15px;
+ }
+ 
+ .filter-panel p.cancel a {
+     color:#888;
+ }
+ 
+  .filter-panel p.cancel a:hover {
+     text-decoration:   none;
+ }
+
+
+.content .filter:hover, 
+.content .refine-sort:hover {
+    background-color:#000;
+    color:#fff;
+}
+
+
+.content .filter:hover .filter-panel,
+.content .refine-sort:hover .sort-panel {
+    left: 0;
+    top: auto;
+    z-index: 11; 
+    height:auto;
+}
+
+
+
+.refine-sort {
+    line-height:87px;
+    float: left;
+    width: 100px;
+    background:url('../_global/filter-icon.png') center left no-repeat;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 65px;
+    }
+
+
+
+.results {
+    margin:20px 0 0 0;
+    clear:both;
+}
+
+
+.results ul {
+    margin: 0;
+    padding: 0;
+}
+
+.results ul li {
+    background-color: #bbb;
+    width: 141px;
+    height: 141px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    position:relative;
+    padding:0;
+    background: center center no-repeat;
+    background-size: cover;    
+}
+
+.results ul li p {
+    position:absolute;
+    bottom:0;
+    background: url('bg-overlay.png');
+    text-align:right;
+    margin:0;
+    padding:6px;
+    width: 129px;
+}
+
+
+.results ul li.award a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+    
+}
+
+.results ul li span {
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+    padding:9px;
+}
+
+.results li:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+
+
+
+
+/* ***************** */
+/* ***** ARTICLE ***** */
+/* ***************** */
+
+a.pagenavleft, 
+a.pagenavright {
+    display: block;
+    position: fixed;
+    top: 400px;
+    width: 75px;
+    height: 75px;
+    z-index: 1000;
+}
+
+.backward {
+    left: calc(50% - 650px);
+    background: url('icon-pgback.png');
+}
+
+.forward {
+    right: calc(50% - 650px);
+    background: url('icon-pgfwd.png');
+}
+
+.article-body .dfp300x250 {
+    float: right;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #ddd;
+    background: transparent;
+    text-align: center;
+    line-height: 250px
+}
+
+.article-ad-728x90 {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 90px;
+}
+
+.article-meter-count {
+    padding: 4px 0;
+    margin: 0 0 20px 0;
+    background: #bbb;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #fff;
+}
+
+.photo-containment-div {
+    float: left;
+    width: 550px;
+    border: 1px solid #ddd;
+}
+
+.photo-containment-div .image {
+    position: relative;
+    width: 550px;
+    height: 348px;
+}
+.photo-containment-div .map {
+    position: relative;
+    width: 550px;
+    height: 348px;
+}
+
+.photo-containment-div .hide {
+    display:none;
+}
+
+.photo-containment-div .photo-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 10px;
+    margin: 0;
+    background: url('bg-overlay.png');
+    font-family:'Futura Today Screen Light';
+    text-align: right;
+    font-size: 12px;
+    color: #fff;
+}
+
+.photo-containment-div ul.media-switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.photo-containment-div ul.media-switcher li {
+    display: inline-block;
+    height: 40px !important;
+    width: 32.5%;
+    border-right: 1px solid #ddd;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.photo-containment-div ul.media-switcher li a {
+    display: block;
+    width: 100%;
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.photo-containment-div ul.media-switcher li a
+
+.photo-containment-div ul.media-switcher li .photo {
+    background: url('icon-photo.png') 27px no-repeat;
+    
+}
+
+.photo-containment-div ul.media-switcher li .video {
+    background: url('icon-video.png') 28px no-repeat;
+}
+
+.photo-containment-div ul.media-switcher li .location {
+    background: url('icon-map.png') 29px no-repeat;
+}
+
+.photo-containment-div ul.media-switcher li a:hover {
+    color: #333;
+}
+
+.photo-containment-div ul.media-switcher li:last-child {
+    border-right: none;
+}
+
+.article-intro .title {
+    clear: both;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #999;
+}
+
+.article-intro .title .type, 
+.article-intro .title .category  {
+    font-family:'Futura Today Screen Light';
+    letter-spacing: .08em;
+    color: #999;
+}
+
+.article-body .content p.award {
+    margin-top: 0;
+    font-size: 26px;
+    color: #555;
+}
+
+.article-body .content p.name {
+    display: block;
+    margin: 0;
+    font-size: 60px;
+}
+
+.article-body .content p.byline {
+    padding: 15px 0 0 0;
+    border-top: 1px solid #bbb;
+    font-size: 12px;
+    color: #666;
+}
+
+.article-body .content address {
+    width: 270px;
+    float: right;
+    margin: 15px 0 15px 10px;
+    padding: 15px;
+    border: 1px solid #666;
+    border-top: 12px solid #666;
+    font-size: 14px;
+    line-height: 180%;
+    word-break: break-all;
+}
+
+.article-body .article-discovery p, .article-body .article-related p {
+    margin-top: 0;
+    font-family:'Futura Today Screen DemiBold';
+    font-size: 20px;
+}
+
+.article-body .article-discovery {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.article-body .article-related {
+    display: none;
+    float: left;
+    margin-top: 20px;
+    width: 430px;
+}
+
+.article-body .article-related ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.article-body .article-related ul li {
+    border-bottom: 1px solid #bbb;
+    padding: 20px 0;
+}
+
+.article-body .article-related ul li a {
+    font-size: 18px;
+    color: #666;
+    text-decoration: none;
+}
+
+.article-body .article-related ul li a:hover {
+    color: #333;
+}
+
+.article-body .article-related ul li:last-child {
+    border-bottom: none;
+}
+
+
