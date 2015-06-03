@@ -39,7 +39,7 @@ html, body {
 /* ****** ADS ****** */
 /* ***************** */
 
-.dfp720x90, 
+.dfp728x90, 
 .dfp300x250 {
     background: #eee;
 }
@@ -52,16 +52,16 @@ html, body {
 /* ***************** */
 
 .top-nav {
-    background: #999;
-    border-bottom: 1px solid #000;
+    background: #5f4955;
+    border-bottom: 1px solid #33262d;
 }
 
 .top-nav li {
-    border-left: 1px solid #333;
+    border-left: 1px solid #4a373b;
 }
 
 .top-nav li:last-child {
-    border-right: 1px solid #333;
+    border-right: 1px solid #4a373b;
 }
 
 .top-nav a {
@@ -69,7 +69,7 @@ html, body {
 }
 
 .top-nav a:hover {
-    color: #666;
+    color: #b38ba1;
     transition: color .3s ease;
 }
 
@@ -115,7 +115,7 @@ html, body {
 }
 
 .infobox li {
-    background: #d02235;
+    background: #ef644f;
 }
 
 .infobox li a {
@@ -124,7 +124,7 @@ html, body {
 }
 
 .infobox li:hover {
-    background: #a80e1f;
+    background: #cd5644;
     transition: background .3s ease;
 }
 
@@ -134,12 +134,12 @@ html, body {
 
 .featured .featured-identity h3, 
 .module h3 {
-    background: #d02235;
+    background: #ef644f;
 }
 
 .featured .featured-identity h3:hover,
 .module h3:hover {
-    background: #a80e1f;
+    background: #cd5644;
     transition: background .3s ease;
 }
 
@@ -178,7 +178,7 @@ html, body {
 
 .article-rail .type-links li,
 .results-rail .type-links li {
-    background: #d02235;
+    background: #ef644f;
 }
 
 .article-rail .type-links li a,
@@ -189,57 +189,57 @@ html, body {
 
 .article-rail .type-links li:hover,
 .results-rail .type-links li:hover {
-    background: #a80e1f;
+    background: #cd5644;
     transition: background .3s ease;
 }
 
 .filter-panel {
-    background: #e9e9e9;
+    background: #d9d0d3;
 }
 
 .filter-panel input.search {
-    border: 1px solid #bbb;
+    border: 1px solid #6a5359;
     color: #333;
 }
 
 .filter-panel a.filter-heading {
     color: #333;
-    border-top: 1px solid #bbb;
+    border-top: 1px solid #b4a5aa;
 }
 
 .filter-panel a.filter-heading:hover {
-    background-color: #bbb;
+    background-color: #b4a5aa;
     transition: background-color .2s ease;
 }
 
 .filter-panel ul li {
-    background-color: #999;
-    border-bottom: 1px solid #666;
+    background-color: #6a5359;
+    border-bottom: 1px solid #816a70;
     color: #fff;
 }
 
 .filter-panel ul li:hover {
-    background-color: #666;
+    background-color: #422e33;
     transition: background .2s ease;
     cursor: pointer;
 }
 
 .filter-panel ul li.selected {
-    background: url('../_global/best-icon-selected.png') right center no-repeat #666;
+    background: url('../_global/best-icon-selected.png') right center no-repeat #422e33;
 }
 
 .results-body p.results-type {
-    background: #d02235;
+    background: #ef644f;
     color: #fff;
 }
 
 .results-body p.applied-filters {
-    background: #e9e9e9;
+    background: #d9d0d3;
     color: #666;
 }
 
 .results-body p.applied-filters span {
-    color: #d02235;
+    color: #ee6553;
 }
 
 .results ul li {
@@ -282,12 +282,12 @@ html, body {
 }
 
 .article-heading .winner-type {
-    color: #333;
+    color: #5f4955;
 }
 
 .article-body .winner-name {
     border-top: 1px solid #eee;
-    color: #333;
+    color: #5f4955;
 }
 
 .article-body address {
@@ -295,7 +295,7 @@ html, body {
 }
 
 .article-body a {
-    color: #368fca;
+    color: #5f4955;
     font-family:'Futura Today Screen Normal';
     font-size: 16px;
 }
@@ -307,7 +307,7 @@ html, body {
 
 .article-body .article-content u {
     text-decoration: none;
-    color: #368fca;
+    color: #5f4955;
 }
 
 .article-body .winner-byline {
@@ -315,7 +315,7 @@ html, body {
 }
 
 .article-rail .type-links li {
-    background: #d02235;
+    background: #ef644f;
 }
 
 .article-rail .type-links li a {
@@ -324,12 +324,12 @@ html, body {
 }
 
 .article-rail .type-links li:hover {
-    background: #a80e1f;
+    background: #cd5644;
     transition: background .3s ease;
 }
 
 .article-discovery p.near-me {
-    background: #d02235;
+    background: #ef644f;
     color: #fff;
 }
 
@@ -340,16 +340,16 @@ html, body {
 /* ***************** */
 
 .device-phone .infobox {
-    background: #8b949a;
+    background: #7f747a;
 }
 
 .device-phone .top-nav ul {
-    background: #8b949a;
+    background: #7f747a;
 }
 
 .device-phone .top-nav li {
     border-left: none;
-    border-bottom: 1px solid #464c4f;
+    border-bottom: 1px solid #4a373b;
 }
     
 .device-phone .top-nav li:last-child {
