@@ -268,11 +268,9 @@ html, body {
 /* **** ARTICLE **** */
 /* ***************** */
 
-.article-meter-count {
-    background: #bbb;
-    text-transform: uppercase;
-    letter-spacing: .08em;
-    color: #fff;
+.articles-left-div {
+    background: #eee;
+    color: #333;
 }
 
 .photo-containment-div {
