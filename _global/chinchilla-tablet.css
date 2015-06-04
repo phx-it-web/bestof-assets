@@ -92,6 +92,9 @@ html, body {
     clear: both;
 }
 
+.hide { 
+    display:none;
+}
 
 
 /* ***************** */
