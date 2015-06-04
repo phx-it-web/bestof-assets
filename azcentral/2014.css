@@ -39,7 +39,7 @@ html, body {
 /* ****** ADS ****** */
 /* ***************** */
 
-.dfp728x90, 
+.dfp720x90, 
 .dfp300x250 {
     background: #eee;
 }
@@ -52,16 +52,16 @@ html, body {
 /* ***************** */
 
 .top-nav {
-    background: #5f4955;
-    border-bottom: 1px solid #33262d;
+    background: #368fca;
+    border-bottom: 1px solid #000;
 }
 
 .top-nav li {
-    border-left: 1px solid #4a373b;
+    border-left: 1px solid #226d9f;
 }
 
 .top-nav li:last-child {
-    border-right: 1px solid #4a373b;
+    border-right: 1px solid #226d9f;
 }
 
 .top-nav a {
@@ -69,7 +69,7 @@ html, body {
 }
 
 .top-nav a:hover {
-    color: #b38ba1;
+    color: #62b7ef;
     transition: color .3s ease;
 }
 
@@ -115,7 +115,7 @@ html, body {
 }
 
 .infobox li {
-    background: #ef644f;
+    background: #d02235;
 }
 
 .infobox li a {
@@ -124,7 +124,7 @@ html, body {
 }
 
 .infobox li:hover {
-    background: #cd5644;
+    background: #a80e1f;
     transition: background .3s ease;
 }
 
@@ -134,12 +134,12 @@ html, body {
 
 .featured .featured-identity h3, 
 .module h3 {
-    background: #ef644f;
+    background: #d02235;
 }
 
 .featured .featured-identity h3:hover,
 .module h3:hover {
-    background: #cd5644;
+    background: #a80e1f;
     transition: background .3s ease;
 }
 
@@ -178,7 +178,7 @@ html, body {
 
 .article-rail .type-links li,
 .results-rail .type-links li {
-    background: #ef644f;
+    background: #d02235;
 }
 
 .article-rail .type-links li a,
@@ -189,57 +189,57 @@ html, body {
 
 .article-rail .type-links li:hover,
 .results-rail .type-links li:hover {
-    background: #cd5644;
+    background: #a80e1f;
     transition: background .3s ease;
 }
 
 .filter-panel {
-    background: #d9d0d3;
+    background: #cee2ef;
 }
 
 .filter-panel input.search {
-    border: 1px solid #6a5359;
+    border: 1px solid #99bad0;
     color: #333;
 }
 
 .filter-panel a.filter-heading {
     color: #333;
-    border-top: 1px solid #b4a5aa;
+    border-top: 1px solid #99bad0;
 }
 
 .filter-panel a.filter-heading:hover {
-    background-color: #b4a5aa;
+    background-color: #99bad0;
     transition: background-color .2s ease;
 }
 
 .filter-panel ul li {
-    background-color: #6a5359;
-    border-bottom: 1px solid #816a70;
+    background-color: #99bad0;
+    border-bottom: 1px solid #7599b2;
     color: #fff;
 }
 
 .filter-panel ul li:hover {
-    background-color: #422e33;
+    background-color: #4b8bb3;
     transition: background .2s ease;
     cursor: pointer;
 }
 
 .filter-panel ul li.selected {
-    background: url('../_global/best-icon-selected.png') right center no-repeat #422e33;
+    background: url('../_global/best-icon-selected.png') right center no-repeat #368fca;
 }
 
 .results-body p.results-type {
-    background: #ef644f;
+    background: #d02235;
     color: #fff;
 }
 
 .results-body p.applied-filters {
-    background: #d9d0d3;
+    background: #cee2ef;
     color: #666;
 }
 
 .results-body p.applied-filters span {
-    color: #ee6553;
+    color: #d02235;
 }
 
 .results ul li {
@@ -282,12 +282,12 @@ html, body {
 }
 
 .article-heading .winner-type {
-    color: #5f4955;
+    color: #368fca;
 }
 
 .article-body .winner-name {
     border-top: 1px solid #eee;
-    color: #5f4955;
+    color: #368fca;
 }
 
 .article-body address {
@@ -295,7 +295,7 @@ html, body {
 }
 
 .article-body a {
-    color: #5f4955;
+    color: #368fca;
     font-family:'Futura Today Screen Normal';
     font-size: 16px;
 }
@@ -307,7 +307,7 @@ html, body {
 
 .article-body .article-content u {
     text-decoration: none;
-    color: #5f4955;
+    color: #368fca;
 }
 
 .article-body .winner-byline {
@@ -315,7 +315,7 @@ html, body {
 }
 
 .article-rail .type-links li {
-    background: #ef644f;
+    background: #d02235;
 }
 
 .article-rail .type-links li a {
@@ -324,12 +324,12 @@ html, body {
 }
 
 .article-rail .type-links li:hover {
-    background: #cd5644;
+    background: #a80e1f;
     transition: background .3s ease;
 }
 
 .article-discovery p.near-me {
-    background: #ef644f;
+    background: #d02235;
     color: #fff;
 }
 
@@ -340,16 +340,16 @@ html, body {
 /* ***************** */
 
 .device-phone .infobox {
-    background: #7f747a;
+    background: #8b949a;
 }
 
 .device-phone .top-nav ul {
-    background: #7f747a;
+    background: #8b949a;
 }
 
 .device-phone .top-nav li {
     border-left: none;
-    border-bottom: 1px solid #4a373b;
+    border-bottom: 1px solid #464c4f;
 }
     
 .device-phone .top-nav li:last-child {
