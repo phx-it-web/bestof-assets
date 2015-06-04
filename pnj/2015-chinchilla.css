@@ -282,12 +282,12 @@ html, body {
 }
 
 .article-heading .winner-type {
-    color: #368fca;
+    color: #234298;
 }
 
 .article-body .winner-name {
     border-top: 1px solid #eee;
-    color: #368fca;
+    color: #234298;
 }
 
 .article-body address {
@@ -295,7 +295,7 @@ html, body {
 }
 
 .article-body a {
-    color: #368fca;
+    color: #234298;
     font-family:'Futura Today Screen Normal';
     font-size: 16px;
 }
@@ -307,7 +307,7 @@ html, body {
 
 .article-body .article-content u {
     text-decoration: none;
-    color: #368fca;
+    color: #234298;
 }
 
 .article-body .winner-byline {
@@ -315,7 +315,7 @@ html, body {
 }
 
 .article-rail .type-links li {
-    background: #d02235;
+    background: #f37e30;
 }
 
 .article-rail .type-links li a {
@@ -324,12 +324,12 @@ html, body {
 }
 
 .article-rail .type-links li:hover {
-    background: #a80e1f;
+    background: #d76519;
     transition: background .3s ease;
 }
 
 .article-discovery p.near-me {
-    background: #d02235;
+    background: #f37e30;
     color: #fff;
 }
 
@@ -344,14 +344,22 @@ html, body {
 }
 
 .device-phone .top-nav ul {
-    background: #8b949a;
+    background: none;
 }
 
 .device-phone .top-nav li {
     border-left: none;
-    border-bottom: 1px solid #464c4f;
+    border-bottom: 1px solid #315c1e;
 }
     
 .device-phone .top-nav li:last-child {
     border: none;
+}
+
+.device-phone .filter-panel {
+  padding: 20px 0 0 0;
+}
+
+.device-phone .infobox p {
+  margin-top: 20px;
 }

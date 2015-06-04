@@ -123,10 +123,7 @@ html, body {
 /* ***************** */
 
 .dfp728x90 {
-    clear: both;
-    width: 728px;
-    height: 90px;
-    margin: 20px auto;
+    display: none;
 }
 
 .dfp300x250 {
