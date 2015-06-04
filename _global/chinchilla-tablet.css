@@ -599,6 +599,45 @@ a.pagenavright {
     height: 348px;
 }
 
+.photo-containment-div .media-switcher {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 150px;
+    background: url('../_global/bg-overlay.png');
+    z-index: 50;
+}
+
+.photo-containment-div .media-switcher a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 4px 0;
+    text-indent: -9999px;
+    opacity: 0.5;
+}
+
+.photo-containment-div .media-switcher a:hover {
+    opacity: 0.8;
+}
+
+.photo-containment-div .media-switcher a.selected {
+    opacity: 1;
+}
+
+.photo-containment-div .media-switcher a.photo {
+    background: url('../_global/icon-media-photo.png') center center no-repeat;
+}
+
+.photo-containment-div .media-switcher a.video {
+    background: url('../_global/icon-media-video.png') center center no-repeat;
+}
+
+.photo-containment-div .media-switcher a.map {
+    background: url('../_global/icon-media-map.png') center center no-repeat;
+}
+
 .photo-containment-div .image {
     position: relative;
     width: 100%;
