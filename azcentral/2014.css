@@ -342,12 +342,12 @@ html, body {
 }
 
 .device-phone .top-nav ul {
-    background: #8b949a;
+    background: none;
 }
 
 .device-phone .top-nav li {
     border-left: none;
-    border-bottom: 1px solid #464c4f;
+    border-bottom: 1px solid #2271a5;
 }
     
 .device-phone .top-nav li:last-child {

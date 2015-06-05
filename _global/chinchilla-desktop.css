@@ -617,6 +617,11 @@ a.pagenavright {
     height: 348px;
 }
 
+.photo-containment-div .map {
+    height: 100%;
+    width: 100%;
+}
+
 .photo-containment-div .media-switcher {
     position: absolute;
     top: 0;
@@ -624,7 +629,7 @@ a.pagenavright {
     width: 45px;
     height: 150px;
     background: url('../_global/bg-overlay.png');
-    z-index: 50;
+    z-index: 5;
 }
 
 .photo-containment-div .media-switcher a {

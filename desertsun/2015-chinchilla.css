@@ -280,12 +280,12 @@ html, body {
 }
 
 .article-heading .winner-type {
-    color: #333;
+    color: #525252;
 }
 
 .article-body .winner-name {
     border-top: 1px solid #eee;
-    color: #333;
+    color: #525252;
 }
 
 .article-body address {
@@ -338,11 +338,11 @@ html, body {
 /* ***************** */
 
 .device-phone .infobox {
-    background: #8b949a;
+    background: #7c7c7c;
 }
 
 .device-phone .top-nav ul {
-    background: #8b949a;
+    background: none;
 }
 
 .device-phone .top-nav li {

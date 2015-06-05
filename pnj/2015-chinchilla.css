@@ -340,7 +340,7 @@ html, body {
 /* ***************** */
 
 .device-phone .infobox {
-    background: #8b949a;
+    background: #f5c341;
 }
 
 .device-phone .top-nav ul {
@@ -361,5 +361,9 @@ html, body {
 }
 
 .device-phone .infobox p {
-  margin-top: 20px;
+    margin-top: 20px;
+}
+
+.filter-panel input.search {
+    margin-top: 20px;
 }
