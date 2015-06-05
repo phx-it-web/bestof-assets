@@ -622,6 +622,10 @@ a.pagenavright {
     width: 100%;
 }
 
+.photo-containment-div .video {
+    height: 100%;
+}
+
 .photo-containment-div .media-switcher {
     position: absolute;
     top: 0;
