@@ -627,7 +627,7 @@ a.pagenavright {
     top: 0;
     left: 0;
     width: 45px;
-    height: 150px;
+    height: auto;
     background: url('../_global/bg-overlay.png');
     z-index: 5;
 }
