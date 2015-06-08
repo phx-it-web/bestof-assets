@@ -77,36 +77,6 @@ html, body {
 
 
 /* ***************** */
-/* *** MAIN MENU *** */
-/* ***************** */
-
-.menu-wrapper .chatter {
-    font-size: 14px;
-    line-height: 19px;
-    color: #444;
-}
-
-.menu li a {
-    background-color: #000;
-    text-decoration:none;
-    color:#fff;
-    border-radius: 12px;
-}
-
-.menu li a:hover {
-    background-color: #999;
-    text-decoration:none;
-}
-
-.menu .share-text {
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
-
-
-
-/* ***************** */
 /* *** HOMEPAGE **** */
 /* ***************** */
 
@@ -179,7 +149,7 @@ html, body {
 
 .article-rail .type-links li,
 .results-rail .type-links li {
-    background: #f37e30;
+    background: #b33130;
 }
 
 .article-rail .type-links li a,
@@ -190,7 +160,7 @@ html, body {
 
 .article-rail .type-links li:hover,
 .results-rail .type-links li:hover {
-    background: #d76519;
+    background: #941d1c;
     transition: background .3s ease;
 }
 
@@ -241,7 +211,7 @@ html, body {
 }
 
 .results-body p.applied-filters span {
-    color: #f37e30;
+    color: #b33130;
 }
 
 .results ul li {
@@ -262,7 +232,7 @@ html, body {
 
 
 
-
+/* HAY LOOK A COMMENT */
 
 /* ***************** */
 /* **** ARTICLE **** */
@@ -282,12 +252,12 @@ html, body {
 }
 
 .article-heading .winner-type {
-    color: #234298;
+    color: #b33130;
 }
 
 .article-body .winner-name {
     border-top: 1px solid #eee;
-    color: #234298;
+    color: #b33130;
 }
 
 .article-body address {
