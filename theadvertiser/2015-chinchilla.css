@@ -52,16 +52,16 @@ html, body {
 /* ***************** */
 
 .top-nav {
-    background: #b33130;
-    border-bottom: 1px solid #771515;
+    background: #ababab;
+    border-bottom: 1px solid #333;
 }
 
 .top-nav li {
-    border-left: 1px solid #941d1c;
+    border-left: 1px solid #8a8a8a;
 }
 
 .top-nav li:last-child {
-    border-right: 1px solid #941d1c;
+    border-right: 1px solid #8a8a8a;
 }
 
 .top-nav a {
@@ -69,7 +69,7 @@ html, body {
 }
 
 .top-nav a:hover {
-    color: #e08483;
+    color: #b3312f;
     transition: color .3s ease;
 }
 
@@ -83,6 +83,12 @@ html, body {
 .infobox p {
     margin-top: 140px;
     color: #fff;
+}
+
+.infobox .bestlogo img {
+    top: 40px;
+    width: 240px;
+    left: calc(150px - 120px);
 }
 
 .infobox li {
@@ -165,48 +171,52 @@ html, body {
 }
 
 .filter-panel {
-    padding: 120px 0 0 0;
-    background: #f5f1d2;
+    padding: 40px 0 0 0;
+    background: #d7d7d7;
+}
+
+.filter-panel .resultslogo {
+  top: -30px;
 }
 
 .filter-panel input.search {
-    border: 1px solid #d4c75f;
+    border: 1px solid #8a8a8a;
     color: #333;
 }
 
 .filter-panel a.filter-heading {
     color: #333;
-    border-top: 1px solid #d4c75f;
+    border-top: 1px solid #ababab;
 }
 
 .filter-panel a.filter-heading:hover {
-    background-color: #f5c341;
+    background-color: #ababab;
     transition: background-color .2s ease;
 }
 
 .filter-panel ul li {
-    background-color: #f39d3a;
-    border-bottom: 1px solid #d9661a;
+    background-color: #808080;
+    border-bottom: 1px solid #333;
     color: #fff;
 }
 
 .filter-panel ul li:hover {
-    background-color: #f37e30;
+    background-color: #5c5c5c;
     transition: background .2s ease;
     cursor: pointer;
 }
 
 .filter-panel ul li.selected {
-    background: url('../_global/best-icon-selected.png') right center no-repeat #f37e30;
+    background: url('../_global/best-icon-selected.png') right center no-repeat #5c5c5c;
 }
 
 .results-body p.results-type {
-    background: #f37e30;
+    background: #b33130;
     color: #fff;
 }
 
 .results-body p.applied-filters {
-    background: #f5f1d2;
+    background: #d7d7d7;
     color: #666;
 }
 
@@ -235,6 +245,10 @@ html, body {
 /* **** ARTICLE **** */
 /* ***************** */
 
+.article-heading .articlelogo {
+  margin: 0 15px 20px 0;
+}
+
 .articles-left-div {
     background: #eee;
     color: #333;
@@ -262,7 +276,7 @@ html, body {
 }
 
 .article-body a {
-    color: #234298;
+    color: #b33130;
     font-family:'Futura Today Screen Normal';
     font-size: 16px;
 }
@@ -274,7 +288,7 @@ html, body {
 
 .article-body .article-content u {
     text-decoration: none;
-    color: #234298;
+    color: #b33130;
 }
 
 .article-body .winner-byline {
@@ -282,7 +296,7 @@ html, body {
 }
 
 .article-rail .type-links li {
-    background: #f37e30;
+    background: #b33130;
 }
 
 .article-rail .type-links li a {
@@ -291,12 +305,12 @@ html, body {
 }
 
 .article-rail .type-links li:hover {
-    background: #d76519;
+    background: #941d1c;
     transition: background .3s ease;
 }
 
 .article-discovery p.near-me {
-    background: #f37e30;
+    background: #b33130;
     color: #fff;
 }
 
@@ -307,7 +321,7 @@ html, body {
 /* ***************** */
 
 .device-phone .infobox {
-    background: #f5c341;
+    background: #5c5c5c;
 }
 
 .device-phone .top-nav ul {
@@ -316,7 +330,7 @@ html, body {
 
 .device-phone .top-nav li {
     border-left: none;
-    border-bottom: 1px solid #941d1c;
+    border-bottom: 1px solid #333;
 }
     
 .device-phone .top-nav li:last-child {
@@ -325,6 +339,10 @@ html, body {
 
 .device-phone .filter-panel {
   padding: 20px 0 0 0;
+}
+
+.filter-panel .resultslogo {
+  top: 0px;
 }
 
 .device-phone .infobox p {
