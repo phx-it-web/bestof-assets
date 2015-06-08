@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ***************** */
+/* ***** GLOBAL **** */
+/* ***************** */
+
+html, body { 
+    color: #000;
+}
+
+
+
+
+/* ***************** */
+/* * HEADER/FOOTER * */
+/* ***************** */
+
+.phone-menu {
+    background: #000;
+}
+
+.footer {
+    background: #f3f3f3;
+    font-size: 11px;
+    text-align: center;
+    color: #999;
+}
+
+.footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+
+
+/* ***************** */
+/* ****** ADS ****** */
+/* ***************** */
+
+.dfp720x90, 
+.dfp300x250 {
+    background: #eee;
+}
+
+
+
+
+/* ***************** */
+/* *** FIXED MENU ** */
+/* ***************** */
+
+.top-nav {
+    background: #b33130;
+    border-bottom: 1px solid #771515;
+}
+
+.top-nav li {
+    border-left: 1px solid #941d1c;
+}
+
+.top-nav li:last-child {
+    border-right: 1px solid #941d1c;
+}
+
+.top-nav a {
+    color: #fff;
+}
+
+.top-nav a:hover {
+    color: #e08483;
+    transition: color .3s ease;
+}
+
+
+
+
+/* ***************** */
+/* *** MAIN MENU *** */
+/* ***************** */
+
+.menu-wrapper .chatter {
+    font-size: 14px;
+    line-height: 19px;
+    color: #444;
+}
+
+.menu li a {
+    background-color: #000;
+    text-decoration:none;
+    color:#fff;
+    border-radius: 12px;
+}
+
+.menu li a:hover {
+    background-color: #999;
+    text-decoration:none;
+}
+
+.menu .share-text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ***************** */
+/* *** HOMEPAGE **** */
+/* ***************** */
+
+.infobox p {
+    margin-top: 140px;
+    color: #fff;
+}
+
+.infobox li {
+    background: #b33130;
+}
+
+.infobox li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.infobox li:hover {
+    background: #941d1c;
+    transition: background .3s ease;
+}
+
+.featured, .module, .map-module {
+    background-color: #eee;
+}
+
+.featured .featured-identity h3, 
+.module h3 {
+    background: #b33130;
+}
+
+.featured .featured-identity h3:hover,
+.module h3:hover {
+    background: #941d1c;
+    transition: background .3s ease;
+}
+
+.featured .featured-identity h3 a, 
+.module h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.featured .featured-identity p {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.featured .featured-identity p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.module p {
+    text-align: right;
+}
+
+.module p span {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+/* ***************** */
+/* **** RESULTS **** */
+/* ***************** */
+
+.article-rail .type-links li,
+.results-rail .type-links li {
+    background: #f37e30;
+}
+
+.article-rail .type-links li a,
+.results-rail .type-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-rail .type-links li:hover,
+.results-rail .type-links li:hover {
+    background: #d76519;
+    transition: background .3s ease;
+}
+
+.filter-panel {
+    padding: 120px 0 0 0;
+    background: #f5f1d2;
+}
+
+.filter-panel input.search {
+    border: 1px solid #d4c75f;
+    color: #333;
+}
+
+.filter-panel a.filter-heading {
+    color: #333;
+    border-top: 1px solid #d4c75f;
+}
+
+.filter-panel a.filter-heading:hover {
+    background-color: #f5c341;
+    transition: background-color .2s ease;
+}
+
+.filter-panel ul li {
+    background-color: #f39d3a;
+    border-bottom: 1px solid #d9661a;
+    color: #fff;
+}
+
+.filter-panel ul li:hover {
+    background-color: #f37e30;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+
+.filter-panel ul li.selected {
+    background: url('../_global/best-icon-selected.png') right center no-repeat #f37e30;
+}
+
+.results-body p.results-type {
+    background: #f37e30;
+    color: #fff;
+}
+
+.results-body p.applied-filters {
+    background: #f5f1d2;
+    color: #666;
+}
+
+.results-body p.applied-filters span {
+    color: #f37e30;
+}
+
+.results ul li {
+    background-color: #eee;
+}
+
+.results ul li span {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.results li:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+
+
+
+
+
+
+/* ***************** */
+/* **** ARTICLE **** */
+/* ***************** */
+
+.articles-left-div {
+    background: #eee;
+    color: #333;
+}
+
+.photo-containment-div {
+    border: none;
+}
+
+.article-body .photo-credit {
+    color: #999;
+}
+
+.article-heading .winner-type {
+    color: #234298;
+}
+
+.article-body .winner-name {
+    border-top: 1px solid #eee;
+    color: #234298;
+}
+
+.article-body address {
+    color: #555;
+}
+
+.article-body a {
+    color: #234298;
+    font-family:'Futura Today Screen Normal';
+    font-size: 16px;
+}
+
+.article-body .article-content {
+    border-top: 1px solid #eee;
+    color: #333;
+}
+
+.article-body .article-content u {
+    text-decoration: none;
+    color: #234298;
+}
+
+.article-body .winner-byline {
+    color: #888;
+}
+
+.article-rail .type-links li {
+    background: #f37e30;
+}
+
+.article-rail .type-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-rail .type-links li:hover {
+    background: #d76519;
+    transition: background .3s ease;
+}
+
+.article-discovery p.near-me {
+    background: #f37e30;
+    color: #fff;
+}
+
+
+
+/* ***************** */
+/* **** PHONE **** */
+/* ***************** */
+
+.device-phone .infobox {
+    background: #f5c341;
+}
+
+.device-phone .top-nav ul {
+    background: none;
+}
+
+.device-phone .top-nav li {
+    border-left: none;
+    border-bottom: 1px solid #941d1c;
+}
+    
+.device-phone .top-nav li:last-child {
+    border: none;
+}
+
+.device-phone .filter-panel {
+  padding: 20px 0 0 0;
+}
+
+.device-phone .infobox p {
+    margin-top: 20px;
+}
+
+.filter-panel input.search {
+    margin-top: 20px;
+}
