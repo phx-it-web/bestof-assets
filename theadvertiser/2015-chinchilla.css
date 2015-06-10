@@ -238,6 +238,9 @@ html, body {
     filter: alpha(opacity=80);
 }
 
+.results-rail .type-links {
+    display: none;
+}
 
 
 
