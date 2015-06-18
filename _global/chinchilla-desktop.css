@@ -691,6 +691,11 @@ a.pagenavright {
     line-height: 24px;
 }
 
+.article-body .article-share img {
+    display: inline-block;
+    margin: 20px 5px 0 0;
+}
+
 .article-body .article-content {
     margin: 20px 0;
     padding: 20px 0;
