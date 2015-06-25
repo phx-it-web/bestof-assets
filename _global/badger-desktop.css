@@ -286,13 +286,13 @@ a {
     z-index: 10;
 }
 
-.winner .article-nav-left,
-.winner .article-nav-right {
+.article-page .article-nav-left,
+.article-page .article-nav-right {
     display: block;
 }
 
-.winner .article-nav-left:hover,
-.winner .article-nav-right:hover {
+.article-page .article-nav-left:hover,
+.article-page .article-nav-right:hover {
     transition: opacity 1s ease;
     opacity: 1;
 }
@@ -317,7 +317,7 @@ a {
     margin: 0 0 22px 0;
 }
 
-.results .dfp300x250 {
+.results-page .dfp300x250 {
     float: right;
     display: block;
     padding: 45px 19px;   
@@ -465,7 +465,7 @@ a {
 /* **** RESULTS **** */
 /* ***************** */
 
-.results {
+.results-page {
     overflow-y: scroll;
 }
 
@@ -565,18 +565,18 @@ a {
 
 .results-header ul li {
     display: inline-block;
-    height: 40px;
     margin: 0 12px 12px 0;
 }
 
 .results-header ul li a {
     display: block;
-    padding: 0 10px 0 10px;
-    line-height: 40px;
+    padding: 10px;
+    line-height: 20px;
+    cursor: pointer;
 }
 
 .results-header ul li.selected a {
-    padding: 0 8px 0 10px;
+    padding: 10px 8px 10px 10px;
 }
 
 ul.winner-list {
@@ -760,7 +760,7 @@ ul.article-sharing li img {
 .article-rail {
     float: right;
     width: 300px;
-    margin: -360px 0 30px 0;
+    margin: -465px 0 30px 0;
 }
 
 .article-rail .section {
@@ -811,11 +811,6 @@ ul.article-sharing li img {
     font-style: italic;
 }
 
-.article-contact p a:before { 
-    content:"\00b7  "; 
-}
-
-
 
 
 /* ***************** */
@@ -841,7 +836,7 @@ ul.article-sharing li img {
         width: calc(100% - 190px);
     }
     
-    .results .dfp300x250 {
+    .results-page .dfp300x250 {
         padding: 51px 26px;   
     }
 
@@ -888,30 +883,30 @@ ul.article-sharing li img {
         text-align: center;
     }
       
-    .homepage .winners-links ul {
+    .home-page .winners-links ul {
         float: right;
         width: calc(100% - 160px);
         padding: 0;
         margin: 0;
     }
       
-    .homepage .winners-links ul li {
+    .home-page .winners-links ul li {
         float: left;
         display: inline-block;
-        padding: 15px 0;
+        padding: 0;
         margin: 0;
         line-height: 100%;
     }
       
-    .homepage .winners-links ul li a {
-        padding: 0 15px;
+    .home-page .winners-links ul li a {
+        padding: 15px;
     }
       
-    .results .dfp300x250 {
+    .results-page .dfp300x250 {
         padding: 51px 26px;   
     }
 
-    .results ul.winner-list li {
+    .results-page ul.winner-list li {
         width: 161px;
         height: 161px;
         margin: 0 0 26px 24px;
@@ -942,8 +937,8 @@ ul.article-sharing li img {
         display: block;
     }
       
-    .winner .article-nav-left,
-    .winner .article-nav-right {
+    .article-page .article-nav-left,
+    .article-page .article-nav-right {
         display: none;
     }
       
@@ -989,19 +984,19 @@ ul.article-sharing li img {
         margin: 0 0 30px 0;
     }
     
-    .results .main-nav img.logo,
-    .winner .main-nav img.logo {
+    .results-page .main-nav img.logo,
+    .article-page .main-nav img.logo {
         float: left;
         margin: 0;
     }
       
-    .results .main-nav .blurb,
-    .winner .main-nav .blurb {
+    .results-page .main-nav .blurb,
+    .article-page .main-nav .blurb {
         display: none;
     }
       
-    .results .main-nav .winners-links ul,
-    .winner .main-nav .winners-links ul {
+    .results-page .main-nav .winners-links ul,
+    .article-page .main-nav .winners-links ul {
         position: relative;
         float: right;
         width: calc(100% - 180px);
@@ -1012,8 +1007,8 @@ ul.article-sharing li img {
         z-index: 10;
     }  
       
-    .results .main-nav .winners-links ul li,
-    .winner .main-nav .winners-links ul li {
+    .results-page .main-nav .winners-links ul li,
+    .article-page .main-nav .winners-links ul li {
         display: none;
         width: 100%;
         height: 75px;
@@ -1024,13 +1019,13 @@ ul.article-sharing li img {
         cursor: pointer;
     }  
       
-    .results .main-nav .winners-links ul li:first-child,
-    .winner .main-nav .winners-links ul li:first-child {
+    .results-page .main-nav .winners-links ul li:first-child,
+    .article-page .main-nav .winners-links ul li:first-child {
         display: block;
     }
 
-    .results .main-nav .winners-links ul li a,
-    .winner .main-nav .winners-links ul li a {
+    .results-page .main-nav .winners-links ul li a,
+    .article-page .main-nav .winners-links ul li a {
         pointer-events: none;
         padding: 0 0 0 15px;
     }
@@ -1066,7 +1061,7 @@ ul.article-sharing li img {
         margin: 0;
     }
       
-    .homepage .winners-links {
+    .home-page .winners-links {
         margin: 0 0 50px 0;
     }
       
@@ -1074,13 +1069,13 @@ ul.article-sharing li img {
         margin-bottom: 0;
     }
       
-    .results .main-nav img.logo,
-    .winner .main-nav img.logo {
+    .results-page .main-nav img.logo,
+    .article-page .main-nav img.logo {
         width: 100px;
     }
       
-    .results .main-nav .winners-links ul,
-    .winner .main-nav .winners-links ul {
+    .results-page .main-nav .winners-links ul,
+    .article-page .main-nav .winners-links ul {
         width: calc(100% - 120px);
     }  
       
@@ -1124,7 +1119,7 @@ ul.article-sharing li img {
         margin: 0 0 40px 0;
     }
       
-    .results .dfp300x250 {
+    .results-page .dfp300x250 {
         float: none;
         width: 100%;
         padding: 20px 0;
@@ -1179,14 +1174,14 @@ ul.article-sharing li img {
         margin-right: 22px;
     }
     
-    .homepage .dfp300x250,
+    .home-page .dfp300x250,
     .article-rail .dfp300x250 {
         width: 100%;
         padding: 15px 0;
         text-align: center;
     }
     
-    .results ul.winner-list,
+    .results-page ul.winner-list,
     .article-rail ul.winner-list {
         width: 100%;
         min-height: 170px;
@@ -1194,7 +1189,7 @@ ul.article-sharing li img {
         padding-left: 15px;
     }
       
-    .results ul.winner-list li,
+    .results-page ul.winner-list li,
     .article-rail ul.winner-list li{
         width: 156px;
         height: 156px;
@@ -1252,25 +1247,25 @@ ul.article-sharing li img {
         display: none;
     }
     
-    .results .dfp300x250 {
+    .results-page .dfp300x250 {
         padding: 0 !important;   
     }  
       
-    .results ul.winner-list {
+    .results-page ul.winner-list {
         width: calc(100% 16px);
         min-height: 150px;
         margin: 0 0 0 -16px;
         padding: 0;
     }
       
-    .results ul.winner-list li {
+    .results-page ul.winner-list li {
         width: 140px;
         height: 140px;
         margin: 0 0 18px 16px;
     }  
     
-    .results .main-nav .winners-links ul li a,
-    .winner .main-nav .winners-links ul li a {
+    .results-page .main-nav .winners-links ul li a,
+    .article-page .main-nav .winners-links ul li a {
         padding: 0 0 0 5px;
     }  
       

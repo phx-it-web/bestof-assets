@@ -353,15 +353,15 @@ ul.article-sharing li.email {
   and (min-width: 768px) 
   and (max-width: 990px) {
   
-    .homepage .winners-links ul li {
+    .home-page .winners-links ul li {
         border-left: 1px solid #b8b8b8;
     }
 
-    .homepage .winners-links ul li:last-child {
+    .home-page .winners-links ul li:last-child {
         border-right: 1px solid #b8b8b8;
     }
       
-    .homepage .winners-links ul li {
+    .home-page .winners-links ul li {
         width: 49.5%;
     }
       
@@ -373,15 +373,15 @@ ul.article-sharing li.email {
 @media only screen 
   and (max-width: 990px) {
   
-    .results .main-nav .winners-links ul li,
-    .winner .main-nav .winners-links ul li {
+    .results-page .main-nav .winners-links ul li,
+    .article-page .main-nav .winners-links ul li {
         background: #fff;
         border: none;
         border-bottom: 1px solid #b8b8b8;
     }  
       
-    .results .main-nav .winners-links ul li:first-child,
-    .winner .main-nav .winners-links ul li:first-child {
+    .results-page .main-nav .winners-links ul li:first-child,
+    .article-page .main-nav .winners-links ul li:first-child {
         border-top: 1px solid #b8b8b8;
         background: url('../_global/b-dropdown-arrow.png') center right no-repeat #fff;
     }
@@ -394,11 +394,11 @@ ul.article-sharing li.email {
 @media only screen 
   and (max-width: 767px) {
 
-    .homepage .main-nav .section ul li {
+    .home-page .main-nav .section ul li {
         border-top: 1px solid #b8b8b8;
     }
 
-    .homepage .main-nav .section ul li:last-child {
+    .home-page .main-nav .section ul li:last-child {
         border-bottom: 1px solid #b8b8b8;
     }
   
