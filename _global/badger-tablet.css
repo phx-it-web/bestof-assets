@@ -176,6 +176,7 @@ a {
 }
 
 .footer {
+    clear: both;
     font-size: 12px;
     line-height: 16px;
 }
@@ -943,11 +944,6 @@ ul.article-sharing li img {
         display: block;
     }
       
-    .article-page .article-nav-left,
-    .article-page .article-nav-right {
-        display: none;
-    }
-      
     .footer {
         text-align: center;
     }
@@ -962,7 +958,7 @@ ul.article-sharing li img {
         clear: both;
         float: none;
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
       
     .site-search {
@@ -1045,7 +1041,7 @@ ul.article-sharing li img {
   and (max-width: 767px) {
   
     .main-content {
-        margin-bottom: 120px;
+        margin-bottom: 200px;
     }
       
     .footer {

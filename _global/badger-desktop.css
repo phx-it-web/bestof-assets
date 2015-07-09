@@ -176,6 +176,7 @@ a {
 }
 
 .footer {
+    clear: both;
     font-size: 12px;
     line-height: 16px;
 }
@@ -941,11 +942,6 @@ ul.article-sharing li img {
 
     .mobile-menu {  
         display: block;
-    }
-      
-    .article-page .article-nav-left,
-    .article-page .article-nav-right {
-        display: none;
     }
       
     .footer {
