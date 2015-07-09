@@ -1133,6 +1133,10 @@ ul.article-sharing li img {
         width: 100%;
     }  
       
+    .article-heading .breadcrumb {
+        display: none;
+    }
+      
     ul.article-sharing {
         float: none;
         width: 100%;

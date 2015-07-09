@@ -1132,6 +1132,10 @@ ul.article-sharing li img {
         float: none;
         width: 100%;
     }  
+    
+    .article-heading .breadcrumb {
+        display: none;
+    }  
       
     ul.article-sharing {
         float: none;
