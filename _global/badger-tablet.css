@@ -705,6 +705,11 @@ ul.article-sharing li img {
     width: 100%;
 }
 
+.article-media #map {
+    position: absolute;
+    top: 0;
+}
+
 .article-media .video {
     height: 100%;
 }
