@@ -618,6 +618,11 @@ a.pagenavright {
     width: 100%;
 }
 
+.photo-containment-div #map {
+    position: absolute;
+    top: 0;
+}
+
 .photo-containment-div .video {
     height: 100%;
 }
