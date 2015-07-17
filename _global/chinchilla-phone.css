@@ -553,11 +553,12 @@ a.pagenavright {
     z-index: 9999;
 }
 
-.article-meter-count {
-    margin: 0 0 20px 0;
-    padding: 4px 0;
-    font-size: 14px;
+.article-meter {
+    padding: 40px 0 0 0;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #777;
 }
 
 .article-heading {
@@ -586,16 +587,6 @@ a.pagenavright {
     clear: both;
     width: 300px;
     margin: 0 auto;
-}
-
-.articles-left-div {
-    margin: 40px 0 0 0;
-    padding: 2px;
-    font-family:'Futura Today Screen Light';
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 2px;
 }
 
 .photo-containment-div {
