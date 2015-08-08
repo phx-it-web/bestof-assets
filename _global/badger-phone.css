@@ -1213,7 +1213,7 @@ ul.article-sharing li img {
         margin: 0 5px 20px 0;
     }
       
-    .article-media {
+    .article-media, .article-media #photo {
         min-height: 253px;
     }  
     
@@ -1298,7 +1298,7 @@ ul.article-sharing li img {
         display: none;
     }
       
-    .article-media {
+    .article-media, .article-media #photo {
         min-height: 169px;
     }  
       
