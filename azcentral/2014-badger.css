@@ -200,11 +200,12 @@ ul.winner-list li p span {
 }
 
 .status-bar p {
-    color: #fff;
+    color: #999;
 }
 
 .status-bar p span {
-    color: #b1daf6;
+    color: #000;
+	font-weight:bold;
 }
 
 .status-bar .close-panel {
