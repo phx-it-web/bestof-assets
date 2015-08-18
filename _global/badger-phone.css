@@ -163,6 +163,19 @@ a {
     font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;
+	position: relative;
+    vertical-align: top;
+    height: 23px;
+}
+
+.twitter, .facebook {
+	vertical-align: top;
+    position: relative;
+    top: -3px;
+}
+
+.site-profile {
+	padding-left: 6px;
 }
 
 
