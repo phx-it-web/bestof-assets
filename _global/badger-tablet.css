@@ -104,23 +104,31 @@ a {
 
 .cobrand-menu {
     width: 100%;
-    height: 40px;
+    height: 39px;
     overflow: hidden;
+    /*border-bottom: 1px solid #888;*/
+    /* padding-bottom: 6px; */
+    margin-left: 0px;
+    position: relative;
+    z-index: 9999;
 }
 
 .mobile-menu {
     position: relative;
     display: none;
-    width: 100%;
-    height: 50px;
+    height: 48px;
     overflow: hidden;
-    z-index: 50;
+    z-index: 47;
+	margin-top: -48px;
 }
 
 .mobile-nav-button {
     float: left;
     margin: 0 0 0 10px;
     cursor: pointer;
+	width: 41px;
+    position: relative;
+    top: 7px;
 }
 
 .mobile-search-button {
@@ -856,6 +864,28 @@ ul.article-sharing li img {
 /* ** RESPONSIVE *** */
 /* ***************** */
 
+/* *** IPAD PORTRAIT *** */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 768px) {
+	  
+	 .mobile-menu {
+		 height:auto;
+		 background:#141414!important;
+	 }
+	 
+	 .mobile-nav-button {
+		 top:0;
+	 }
+	 
+	 .cobrand-menu {
+		 margin-left: 55px;
+	 }
+	  
+	  
+  }
+  
+  
 
 /* *** 990 BREAKPOINT *** */
 @media only screen 
@@ -969,11 +999,14 @@ ul.article-sharing li img {
   and (max-width: 990px) {
       
     .cobrand-menu {
-        display: none;
+       display: block;
+	   margin-left: 67px;
     }
+	
 
     .mobile-menu {  
         display: block;
+		background: #141414;
     }
       
     .footer {
@@ -1067,13 +1100,30 @@ ul.article-sharing li img {
 }
 
 @media only screen 
-  and (max-width: 600px) {
+  and (max-width: 960px) {
 	  
 	.status-bar {
 	  display: block; 
 	  width: auto;
 	  padding: 0 0 10px 0;
 	}
+	
+	    .cobrand-menu {
+       display: block;
+	   margin-left: 0px;
+	   border-bottom: 1px solid #888;
+	   height:46px;
+	   background-color: #fff;
+    }
+	
+
+    .mobile-menu {  
+        display: block;
+		background: #000;
+		position:absolute;
+		z-index:99999;
+		width:60px;
+    }
 	  
   }
 
@@ -1212,7 +1262,10 @@ ul.article-sharing li img {
   and (min-width: 481px) 
   and (max-width: 767px) {
     
-    .wrapper {
+    
+	
+	
+	.wrapper {
         width: 450px;
         min-width: 450px;
     }

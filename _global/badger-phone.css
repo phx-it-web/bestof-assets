@@ -106,15 +106,17 @@ a {
     width: 100%;
     height: 40px;
     overflow: hidden;
+	border-bottom: 1px solid #888;
+    padding-bottom: 6px;
 }
 
 .mobile-menu {
     position: relative;
     display: none;
-    width: 100%;
     height: 50px;
     overflow: hidden;
     z-index: 50;
+	margin-top: -48px;
 }
 
 .mobile-nav-button {
@@ -143,7 +145,7 @@ a {
 .mobile-menu-slideout {
     display: none;
     position: fixed;
-    top: 0;
+    top: 47px;
     left: 0;
     width: 300px;
     height: 100%;
@@ -152,7 +154,7 @@ a {
 
 .mobile-menu-slideout ul {
     width: 100%;
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
     padding: 0;
     list-style: none;
 }
@@ -961,7 +963,7 @@ ul.article-sharing li img {
   and (max-width: 990px) {
       
     .cobrand-menu {
-        display: none;
+        /*display: none;*/
     }
 
     .mobile-menu {  
