@@ -509,7 +509,7 @@ a {
 .filter-panel,
 .sort-panel {
     display: none;
-    padding: 16px 0 40px 40px;
+    padding: 16px 0 40px 25px;
 }
 
 .status-bar {
@@ -518,7 +518,7 @@ a {
 
 .status-bar p {
     display: inline-block;
-    width: calc(100% - 84px);
+    width: auto;
     margin: 0;
     padding: 0 0 20px 0;
     font-size: 15px;
@@ -531,13 +531,19 @@ a {
     text-decoration: underline;
 }
 
-.status-bar .close-panel {
+.filter-panel .close-panel, .sort-panel .close-panel { 
     display: inline-block;
-    height: 35px;
-    width: 80px;
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: 50%;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #85c6f1;
+    float: right;
+    position: absolute;
+    right: 18px;
+    text-decoration: underline;
 }
 
 .filter-panel ul {

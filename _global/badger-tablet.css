@@ -475,6 +475,7 @@ a {
     width: 100%;
     min-height: 50px;
     margin: 0 0 30px 0;
+	display: table;
 }
 
 .results-header .winner-type {
@@ -489,11 +490,12 @@ a {
 }
 
 .results-filter-tabs {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
     margin: 0 5px 0 0;
     padding: 0;
+    display: table;
+    width: 325px;
+    float: right;
 }
 
 .results-filter-tabs a {
@@ -510,17 +512,21 @@ a {
 .sort-panel {
     display: none;
     padding: 16px 0 40px 40px;
+	clear: both;
+	border-top:0!important;
 }
 
 .status-bar {
-    margin: 0 40px 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    width: calc(100% - 335px);
+    float: left;
+    padding: 0;
 }
 
 .status-bar p {
-    display: inline-block;
-    width: calc(100% - 84px);
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 0px 0;
     font-size: 15px;
     letter-spacing: .5px;
     vertical-align: 50%;
@@ -531,14 +537,22 @@ a {
     text-decoration: underline;
 }
 
-.status-bar .close-panel {
+.filter-panel .close-panel, .sort-panel .close-panel {
     display: inline-block;
-    height: 35px;
-    width: 80px;
-    font-size: 16px;
+    font-size: 14px;
     vertical-align: 50%;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #85c6f1;
+    float: right;
+    position: absolute;
+    right: 18px;
+    text-decoration: underline;
 }
+
+
 
 .filter-panel ul {
     float: left;
@@ -1038,6 +1052,17 @@ ul.article-sharing li img {
     }
       
 }
+
+@media only screen 
+  and (max-width: 600px) {
+	  
+	.status-bar {
+	  display: block; 
+	  width: auto;
+	  padding: 0 0 10px 0;
+	}
+	  
+  }
 
 
 
