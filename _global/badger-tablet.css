@@ -200,6 +200,8 @@ a {
     clear: both;
     font-size: 12px;
     line-height: 16px;
+	text-align: center;
+    padding: 20px;
 }
 
 
