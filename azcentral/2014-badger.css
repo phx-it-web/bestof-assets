@@ -56,6 +56,16 @@ html, body {
     color: #666;
 }
 
+.article-meter-alert {
+    background: #d2232a !important;
+    color: #fff !important;
+}
+
+.article-meter-count-bold {
+	font-family:'Futura Today Bold', sans-serif !important;
+	font-weight:normal !important;
+}
+
 .footer {
     color: #8f8f8f;
 }
