@@ -170,7 +170,7 @@ a {
     height: 23px;
 }
 
-.twitter, .facebook {
+.twitter, .facebook, .email {
 	vertical-align: top;
     position: relative;
     top: -3px;
