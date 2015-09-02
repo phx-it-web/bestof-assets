@@ -979,7 +979,7 @@ ul.article-sharing li img {
     .main-nav {
         float: none;
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
       
     .main-content {
@@ -995,19 +995,27 @@ ul.article-sharing li img {
       
     .main-nav .section {
         border-bottom: none;
-        text-align: center;
-        margin: 0;
+        text-align: left;
+        margin: 0 0 0 0px;
         padding: 0;
+		font-family: 'Futura Today DemiBold', sans-serif;
     }
+	
+	.section p.winner-type {
+		font-size: 30px;
+		margin:0 0 0 0;
+		line-height:30px;
+		text-transform:capitalize;
+	}
       
     .alt-links {
         display: none;
     }
       
     .winners-links .header {
-        display: none;
+        /*display: none;*/
         margin: 0;
-        padding: 0;
+        padding: 7px 0 0 0;
     }  
       
     .article-rail {
@@ -1017,7 +1025,7 @@ ul.article-sharing li img {
     .results-page .main-nav img.logo,
     .article-page .main-nav img.logo {
         float: left;
-        margin: 0;
+        margin: 0 20px 0 0;
     }
       
     .results-page .main-nav .blurb,
