@@ -48,6 +48,23 @@ a {
     letter-spacing: .5px;
 }
 
+.section .winner-type {
+	text-transform:capitalize;
+	font-size:18px;
+	line-height:24px;
+	} 
+.section .winner-type a {
+	color:#368fca;
+}
+
+.tablet-portrait-winners-label {
+	display:none;
+}
+
+.tablet-portrait-winners-dropdown {
+	display:block;
+}
+
 .section ul {
     list-style: none;
     margin: 0 10px;
@@ -1034,7 +1051,7 @@ ul.article-sharing li img {
       
     .main-nav .section {
         border-bottom: none;
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0;
     }
@@ -1044,10 +1061,28 @@ ul.article-sharing li img {
     }
       
     .winners-links .header {
-        display: none;
-        margin: 0;
-        padding: 0;
-    }  
+    margin: 0 0 0px 0;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+	padding-top:8px;
+	}
+
+	.section .winner-type {
+	font-size:48px;
+	line-height:48px;
+	font-family:'Futura Today DemiBold', sans-serif;
+	text-transform:capitalize;
+	margin:0px 0 0 0;
+	} 
+	
+	.tablet-portrait-winners-label {
+		display:block;
+	}
+	
+	.tablet-portrait-winners-dropdown {
+		display:none;
+	}
       
     .article-rail {
         margin: 0 0 30px 0;
@@ -1056,7 +1091,7 @@ ul.article-sharing li img {
     .results-page .main-nav img.logo,
     .article-page .main-nav img.logo {
         float: left;
-        margin: 0;
+        margin: 0 30px 0 0;
     }
       
     .results-page .main-nav .blurb,
@@ -1135,7 +1170,8 @@ ul.article-sharing li img {
 @media only screen 
   and (max-width: 767px) {
   
-    .main-content {
+	
+	.main-content {
         margin-bottom: 200px;
     }
       
