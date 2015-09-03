@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ***************** */
+/* ***** GLOBAL **** */
+/* ***************** */
+
+html, body { 
+    color:#000;
+}
+
+.section {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.section .header {
+    color: #666;
+}
+
+.section ul li a {
+    color: #368fca;
+}
+
+.section ul li:hover a {
+    color: #7bc4f4;
+}
+
+
+/* ***************** */
+/* * HEADER/FOOTER * */
+/* ***************** */
+
+.mobile-menu {
+    background: #000;
+}
+
+.mobile-menu-slideout {
+    background: #7bc4f4;
+}
+
+.mobile-menu-slideout ul li {
+    border-bottom: 1px solid #368fca;
+}
+
+.mobile-menu-slideout ul li:hover {
+    transition: background .3s ease;
+    background: #368fca;
+}
+
+.mobile-menu-slideout ul li a {
+    color: #fff;
+}
+
+.article-meter {
+    background: #e3edf4;
+    color: #666;
+}
+
+.footer {
+    color: #8f8f8f;
+}
+
+.footer a {
+    color: #368fca;
+}
+
+
+
+/* ***************** */
+/* ****** ADS ****** */
+/* ***************** */
+
+.ad-cradle {
+    background: #eee;
+}
+
+.dfp728x90, 
+.dfp300x250 {
+    background: #eee;
+}
+
+
+
+
+/* ****************** */
+/* *** STICKY NAV *** */
+/* ****************** */
+
+.sticky-nav {
+    background: #000;
+    color: #fff;
+}
+
+.site-location a {
+    color: #fff;
+}
+
+.site-location-popup {
+    background: #000;
+}
+
+.location-input {
+    background: #fff;
+}
+
+
+
+
+/* ***************** */
+/* *** MAIN MENU *** */
+/* ***************** */
+
+
+.blurb {
+    color: #444;
+}
+
+.site-search {
+    border: 1px solid #c8c8c8;
+    color: #666;
+}
+
+
+
+
+/* ***************** */
+/* *** HOMEPAGE **** */
+/* ***************** */
+
+.top-promo {
+    background: #368fca;
+}
+
+.top-promo p {
+    color: #fff;
+}
+
+.module h3 a {
+    background: #d02731;
+    color: #fff;
+}
+
+.module h3 a:hover {
+    background: #bb1721;
+}
+
+.module h3 span {
+    background: #8b1e2e;
+}
+
+.module p span {
+    color: #fff;
+}
+
+.nearby {
+    background-color: #f0f0f0;
+}
+
+
+
+
+/* ***************** */
+/* **** RESULTS **** */
+/* ***************** */
+
+.results-header {
+    border-bottom: 1px solid #333;
+}
+
+.results-header .winner-type {
+    color: #333;
+}
+
+ul.winner-list li p span {
+    color: #fff;
+}
+
+.results-filter-tabs a {
+    border-top: 1px solid #b8b8b8;
+    border-left: 1px solid #b8b8b8;
+    border-right: 1px solid #b8b8b8;
+    color: #368fca;
+}
+
+.results-filter-tabs .active-tab {
+    transition: background .2s ease;
+    background: #368fca;
+    border-bottom: 1px solid #368fca;
+    color: #fff;
+}
+
+.filter-panel,
+.sort-panel {
+    background: #368fca;
+    border-top: 1px solid #333;
+}
+
+.status-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.status-bar p {
+    color: #fff;
+}
+
+.status-bar p span {
+    color: #b1daf6;
+}
+
+.status-bar .close-panel {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #368fca;
+}
+
+.status-bar .close-panel:hover {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+    color: #368fca;
+}
+
+.results-header ul p {
+    color: #fff;
+}
+
+.results-header ul li {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.results-header ul li a:after { 
+    content:"\00a0 \00a0 +"; 
+}
+
+.results-header ul li:hover {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.results-header ul li.selected {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.results-header ul li.selected a:after { 
+    content:"\00a0 \00a0 \2713"; 
+}
+
+.results-header ul li:hover a,
+.results-header ul li.selected a {
+    color: #368fca;
+}
+
+.results-header ul li a {
+    color: #fff;
+}
+
+
+
+/* ***************** */
+/* **** ARTICLE **** */
+/* ***************** */
+
+ul.article-sharing li a {
+    color: #fff;
+}
+
+ul.article-sharing li.facebook {
+    background: #43609a;
+}
+
+ul.article-sharing li.twitter {
+    background: #55acee;
+}
+
+ul.article-sharing li.email {
+    background: #df6337;
+}
+
+.article-heading .breadcrumb {
+    color: #777;
+}
+
+.article-heading .breadcrumb a {
+    color: #368fca;
+}
+
+.article-heading .breadcrumb a:hover {
+    transition: color .2s ease;
+    color: #7bc4f4;
+}
+
+.article-heading .award-type {
+    color: #777;
+}
+
+.article-heading .winner-name {
+    color: #368fca;
+}
+
+.article-media .photo-credit, 
+.article-content .byline {
+    color: #aaa;
+}
+
+.article-rail .section {
+    border-top: 1px solid #b8b8b8;
+}
+
+.article-contact {
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.article-contact p {
+    color: #777;
+}
+
+.article-contact p a,
+.article-content p a {
+    color: #368fca;
+}
+
+.article-contact p a:hover,
+.article-content p a:hover {
+    transition: color .2s ease;
+    color: #7bc4f4;
+}
+
+.article-content p {
+    color: #444;
+}
+
+
+
+
+
+
+/* ***************** */
+/* ** RESPONSIVE *** */
+/* ***************** */
+
+
+/* *** 990 BREAKPOINT *** */
+@media only screen 
+  and (min-width: 991px) 
+  and (max-width: 1200px) {
+    
+  }
+
+/* *** 750 ONLY *** */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 990px) {
+  
+    .home-page .winners-links ul li {
+        border-left: 1px solid #b8b8b8;
+    }
+
+    .home-page .winners-links ul li:last-child {
+        border-right: 1px solid #b8b8b8;
+    }
+      
+    .home-page .winners-links ul li {
+        width: 49.5%;
+    }
+      
+      
+  }
+
+
+/* *** ALL MOBILE VIEWS *** */
+@media only screen 
+  and (max-width: 990px) {
+  
+    .results-page .main-nav .winners-links ul li,
+    .article-page .main-nav .winners-links ul li {
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #b8b8b8;
+    }  
+      
+    .results-page .main-nav .winners-links ul li:first-child,
+    .article-page .main-nav .winners-links ul li:first-child {
+        border-top: 1px solid #b8b8b8;
+        background: url('../_global/b-dropdown-arrow.png') center right no-repeat #fff;
+    }
+  
+  }
+
+
+
+/* *** ALL PHONE VIEWS *** */
+@media only screen 
+  and (max-width: 767px) {
+
+    .home-page .main-nav .section ul li {
+        border-top: 1px solid #b8b8b8;
+    }
+
+    .home-page .main-nav .section ul li:last-child {
+        border-bottom: 1px solid #b8b8b8;
+    }
+  
+    .footer {
+        border-top: 1px solid #b8b8b8;
+    }
+  
+  }
+
+
