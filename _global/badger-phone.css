@@ -33,7 +33,7 @@ a {
 .main-content {
     float: right;
     width: calc(100% - 215px);
-    margin: 0 0 200px 0;
+    margin: 0;
 }
 
 .section {
@@ -986,7 +986,6 @@ ul.article-sharing li img {
         clear: both;
         float: none;
         width: 100%;
-        margin-bottom: 200px;
     }
       
     .site-search {
@@ -995,7 +994,7 @@ ul.article-sharing li img {
       
     .main-nav .section {
         border-bottom: none;
-        text-align: left;
+        text-align: center;
         margin: 0 0 0 0px;
         padding: 0;
 		font-family: 'Futura Today DemiBold', sans-serif;
@@ -1075,19 +1074,16 @@ ul.article-sharing li img {
 /* *** ALL PHONE VIEWS *** */
 @media only screen 
   and (max-width: 767px) {
-  
-    .main-content {
-        margin-bottom: 200px;
-    }
-      
+
     .footer {
         clear: both;
-        padding: 20px 0 0 0;
+        padding: 20px 0 20px 0;
     }
       
     .main-nav .section ul li {
         line-height: 55px;
         font-size: 18px;
+        text-align: center;
     }
       
     .dfp728x90 {

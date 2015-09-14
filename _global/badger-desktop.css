@@ -33,7 +33,7 @@ a {
 .main-content {
     float: right;
     width: calc(100% - 215px);
-    margin: 0 0 80px 0;
+    margin: 0;
 }
 
 .section {
@@ -949,13 +949,7 @@ ul.article-sharing li img {
 @media only screen 
   and (max-width: 990px) {
       
-    .cobrand-menu {
-        display: none;
-    }
 
-    .mobile-menu {  
-        display: block;
-    }
       
     .footer {
         text-align: center;
@@ -971,7 +965,6 @@ ul.article-sharing li img {
         clear: both;
         float: none;
         width: 100%;
-        margin-bottom: 100px;
     }
       
     .site-search {
@@ -1052,14 +1045,10 @@ ul.article-sharing li img {
 /* *** ALL PHONE VIEWS *** */
 @media only screen 
   and (max-width: 767px) {
-  
-    .main-content {
-        margin-bottom: 120px;
-    }
       
     .footer {
         clear: both;
-        padding: 20px 0 0 0;
+        padding: 20px 0 20px 0;
     }
       
     .main-nav .section ul li {
@@ -1088,6 +1077,10 @@ ul.article-sharing li img {
     .article-page .main-nav img.logo {
         width: 100px;
     }
+      
+    .main-nav .winners-links ul li {
+        text-align: center;
+    }  
       
     .results-page .main-nav .winners-links ul,
     .article-page .main-nav .winners-links ul {
@@ -1282,7 +1275,7 @@ ul.article-sharing li img {
         height: 140px;
         margin: 0 0 18px 16px;
     }  
-    
+      
     .results-page .main-nav .winners-links ul li a,
     .article-page .main-nav .winners-links ul li a {
         padding: 0 0 0 5px;
