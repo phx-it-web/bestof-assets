@@ -1021,6 +1021,10 @@ ul.article-sharing li img {
         margin: 0 0 30px 0;
     }
     
+    .results-filter-tabs {
+        top: 8px;
+    }
+      
     .results-page .main-nav img.logo,
     .article-page .main-nav img.logo {
         float: left;
@@ -1066,6 +1070,11 @@ ul.article-sharing li img {
         pointer-events: none;
         padding: 0 0 0 15px;
     }
+      
+    .results-page .main-nav .winners-links .header,
+    .results-page .main-nav .winners-links .winner-type {
+        text-align: left;
+    }  
       
 }
 
@@ -1121,7 +1130,7 @@ ul.article-sharing li img {
         float: none;
         width: 100%;
     }
-      
+    
     .module {
         float: none;
         width: 100%;

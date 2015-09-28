@@ -53,6 +53,7 @@ a {
 	font-size:18px;
 	line-height:24px;
 	} 
+
 .section .winner-type a {
 	color:#368fca;
 }
@@ -123,8 +124,6 @@ a {
     width: 100%;
     height: 39px;
     overflow: hidden;
-    /*border-bottom: 1px solid #888;*/
-    /* padding-bottom: 6px; */
     margin-left: 0px;
     position: relative;
     z-index: 9999;
@@ -971,6 +970,10 @@ ul.article-sharing li img {
         text-align: center;
     }
       
+    .home-page .winners-links .header {
+        display: none;
+    }
+      
     .home-page .winners-links ul {
         float: right;
         width: calc(100% - 160px);
@@ -984,6 +987,7 @@ ul.article-sharing li img {
         padding: 0;
         margin: 0;
         line-height: 100%;
+        text-align: center;
     }
       
     .home-page .winners-links ul li a {
@@ -1087,6 +1091,10 @@ ul.article-sharing li img {
         margin: 0 0 30px 0;
     }
     
+    .results-filter-tabs {
+        top: 8px;
+    }  
+      
     .results-page .main-nav img.logo,
     .article-page .main-nav img.logo {
         float: left;
@@ -1144,10 +1152,9 @@ ul.article-sharing li img {
 	  padding: 0 0 10px 0;
 	}
 	
-	    .cobrand-menu {
+    .cobrand-menu {
        display: block;
 	   margin-left: 0px;
-	   border-bottom: 1px solid #888;
 	   height:46px;
 	   background-color: #fff;
     }
@@ -1293,10 +1300,7 @@ ul.article-sharing li img {
 @media only screen 
   and (min-width: 481px) 
   and (max-width: 767px) {
-    
-    
-	
-	
+
 	.wrapper {
         width: 450px;
         min-width: 450px;

@@ -492,7 +492,7 @@ a {
 
 .results-filter-tabs {
     position: absolute;
-    top: 39px;
+    top: 0;
     right: 0;
     margin: 0 5px 0 0;
     padding: 0;
@@ -879,6 +879,10 @@ ul.article-sharing li img {
         width: calc(100% - 325px);
     }
       
+      .results-filter-tabs {
+        top: 8px;
+    } 
+      
 }
 
 
@@ -925,7 +929,7 @@ ul.article-sharing li img {
     .results-page .dfp300x250 {
         padding: 51px 26px;   
     }
-
+      
     .results-page ul.winner-list li {
         width: 161px;
         height: 161px;
@@ -991,6 +995,10 @@ ul.article-sharing li img {
     .article-rail {
         margin: 0 0 30px 0;
     }
+      
+    .results-filter-tabs { 
+        top: 8px;
+    }    
     
     .results-page .main-nav img.logo,
     .article-page .main-nav img.logo {
